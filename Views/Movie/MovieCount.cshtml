@@ -1,0 +1,33 @@
+@model Dictionary<string, int>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h2>Movies By Genre</h2>
+    <table class=" table">
+        <thead>
+            <tr>
+                <th>Genre</th>
+                <th>Movies count</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var genre in Model)
+            {
+                <tr>
+                    <td>@genre.Key</td>
+                    <td>@genre.Value</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    </body>
+</html>

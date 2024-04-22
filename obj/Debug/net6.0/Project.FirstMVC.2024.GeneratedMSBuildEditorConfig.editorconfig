@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Project.FirstMVC._2024
+build_property.RootNamespace = Project.FirstMVC._2024
+build_property.ProjectDir = /Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Customer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Customer/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvSW5kZXgyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Customer/Index3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvSW5kZXgzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Movie/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWUvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Movie/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWUvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Movie/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWUvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Movie/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWUvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Movie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Movie/MovieCount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWUvTW92aWVDb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Movie/MoviesByGenreList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWUvTW92aWVzQnlHZW5yZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-aewvqatli2
