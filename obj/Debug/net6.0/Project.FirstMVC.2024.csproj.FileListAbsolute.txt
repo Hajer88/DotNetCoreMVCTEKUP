@@ -262,3 +262,11 @@
 /Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/bin/Debug/net6.0/GenreFile.json
 /Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/bin/Debug/net6.0/EmptyJSONFile.json
+/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/obj/Debug/net6.0/Project.FirstMVC.2024.MvcApplicationPartsAssemblyInfo.cs
+/Users/hajertaktak/Projects/Project.FirstMVC.2024/Project.FirstMVC.2024/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

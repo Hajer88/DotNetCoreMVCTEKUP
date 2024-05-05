@@ -45,6 +45,22 @@ namespace Project.FirstMVC._2024.Repositories.Repositories
 
             return MoviCount;
         }
+
+        public List<Movie> GetMovieesByGenre2(string name)
+        {
+            var x = _db.movies
+                .Where(t => t.Genre.name == name)
+                .ToList();
+            return x;
+        }
+
+        public List<Movie> GetMoviesByG(string name)
+        {
+            var g = _db.movies.
+                Where(c => c.Genre.name == name)
+                .ToList();
+            return g;
+        }
     }
 }
 

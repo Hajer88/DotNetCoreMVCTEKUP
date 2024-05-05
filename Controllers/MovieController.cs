@@ -175,13 +175,15 @@ namespace Project.FirstMVC._2024
         public IActionResult DownloadFile()
         {
             byte[] bytes = System.IO.File
-                .ReadAllBytes(@"/Users/hajertaktak/Desktop/Atelier 1 Introduction ASP.Net Core MVC.pdf");
+                .ReadAllBytes(@"/Users/hajertaktak/Desktop/Etude de Cas Voyager Seul(e) Part 1.pdf");
             return File(bytes, "Application/pdf");
         }
         //Get Movies Grouped By Genre
         
         public IActionResult MovieCount()
         {
+            ViewBag.Title = "Hello";
+            ViewData["Name"] = "Hello";
             var c = _IMovieSer.GetMovieCountByG();
             return View(c);
 

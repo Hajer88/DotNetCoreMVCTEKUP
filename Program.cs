@@ -1,11 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Project.FirstMVC._2024.Models;
 using Project.FirstMVC._2024.Repositories.Repositories;
 using Project.FirstMVC._2024.Repositories.RepositoriesContract;
 using Project.FirstMVC._2024.Services.Services;
 using Project.FirstMVC._2024.Services.ServicesContracts;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("IdentityDataContextConnection") ?? throw new InvalidOperationException("Connection string 'IdentityDataContextConnection' not found.");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -15,6 +17,10 @@ var connstring = builder.Configuration
     .GetConnectionString("Default");
 builder.Services.AddDbContext<AppDbContext>
     (options => options.UseSqlite(connstring));
+builder.Services.AddRazorPages();
+
+builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<AppDbContext>();
 
 var app = builder.Build();
 
@@ -31,6 +37,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();;
 //endpoint hello world lorsque le path / est appelé
 
 app.UseAuthorization();
@@ -52,6 +59,7 @@ app.MapGet("/test/{id}", () => "hello world")
     .WithName("Hello");
 app.MapGet("/redirect-me",
     ()=>Results.RedirectToRoute("hello"));
+app.MapRazorPages();
 //Routing mapps url to a single handler and the url
 //segment identifies dynamic data
 app.MapControllerRoute(
